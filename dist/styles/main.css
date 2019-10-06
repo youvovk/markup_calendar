@@ -2,6 +2,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+a {
+  text-decoration: none; }
+
 .body {
   font-family: Roboto, serif;
   font-style: normal;
@@ -53,7 +56,8 @@
   color: #bcbfc3;
   font-size: 24px;
   line-height: 28px;
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  cursor: pointer; }
   .item-active {
     color: #fff;
     font-weight: 500; }
@@ -101,6 +105,7 @@
   margin: 50px 28px 50px 5px; }
 
 .logo {
+  cursor: pointer;
   margin-right: 34px;
   position: relative; }
   .logo-img__container {
@@ -112,6 +117,7 @@
     height: 44px;
     background-color: aliceblue; }
   .logo-text {
+    cursor: pointer;
     color: #fff;
     font-size: 14px;
     line-height: 19px;
